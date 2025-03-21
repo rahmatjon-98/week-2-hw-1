@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+@mixin divcenter($pdd) {
+    width: 80%;
+    padding: $pdd;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin cssharf22px {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: rgba(120, 132, 125, 1);
+
+
+}
+
+@mixin cssbutton {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    border: 1px solid rgba(152, 170, 40, 1);
+    border-radius: 50px;
+    padding: 30px 60px;
+    cursor: pointer;
+
+}
+
+.d1 {
+    width: 100%;
+    height: 135vh;
+    background-image: url(./Group\ 1.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .div1 {
+        @include divcenter(50px);
+
+
+
+        .div11 {
+            a {
+                padding: 25px;
+            }
+        }
+
+        .free {
+            border: 1px solid rgba(237, 255, 129, 0.4);
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px 30px;
+            border-radius: 30px;
+        }
+    }
+
+
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .div12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        position: absolute;
+        z-index: 2;
+        left: 250PX;
+
+        p {
+            @include cssharf22px;
+            padding: 20px 10px;
+            text-align: center
+        }
+
+        button {
+            @include cssbutton;
+            margin-top: 50px;
+        }
+
+    }
+
+    .imgd1 {
+        position: absolute;
+        top: 386px;
+    }
+}
+
+.d2 {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: rgba(246, 251, 249, 1);
+
+    .div2 {
+        @include divcenter(0px);
+    }
+}
+
+@mixin cssharf24px {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2%;
+    color: rgba(37, 61, 50, 1);
+}
+
+@mixin css18px {
+    color: rgba(120, 132, 125, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+@mixin css42px {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 2%;
+    color: rgba(37, 61, 50, 1);
+}
+
+.d3 {
+    .d30 {
+        width: 80%;
+        margin: auto;
+        padding: 60px 0px;
+        display: flex;
+        // gap: 30px;
+
+        .div31 {
+            width: 50%;
+            // margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            p:nth-child(1) {
+                @include css42px;
+            }
+
+            p:nth-child(2) {
+                @include cssharf22px;
+                padding: 30px 0px;
+            }
+
+            p:nth-child(3) {
+                @include cssharf24px;
+                color: rgba(163, 185, 56, 1);
+            }
+        }
+
+        .div32 {
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px;
+            justify-items: center;
+            align-items: center;
+
+            .div33 {
+                width: 80%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+
+
+                p:nth-child(2) {
+                    @include cssharf24px();
+                    padding: 40px 0px;
+                }
+
+                p:nth-child(3) {
+                    @include css18px;
+                }
+            }
+        }
+    }
+
+    .d31 {
+        width: 80%;
+        margin: 100px auto;
+        display: flex;
+        gap: 75px;
+
+        #div31 {
+            width: 53%;
+
+            .img1 {
+                position: absolute;
+                top: 1800px;
+            }
+
+            .img2 {
+                position: absolute;
+                top: 1820px;
+                left: 148px;
+            }
+
+            .img3 {
+                position: absolute;
+                top: 1770px;
+            }
+
+            .img4 {
+                position: absolute;
+                top: 1720px;
+                left: 540px;
+            }
+
+            .img5 {
+                position: absolute;
+                top: 1950px;
+                left: 200px;
+            }
+
+            .img6 {
+                position: absolute;
+                top: 2020px;
+                left: 190px;
+            }
+
+            .img7 {
+                position: absolute;
+                top: 2020px;
+                left: 490px;
+            }
+
+            .img8 {
+                position: absolute;
+                top: 2020px;
+                left: 50px;
+                z-index: -1;
+            }
+
+            .img9 {
+                position: absolute;
+                top: 1950px;
+                left: 548px;
+                z-index: -1;
+            }
+
+            .img10 {
+                position: absolute;
+                top: 2140px;
+                left: 70px;
+                z-index: -1;
+            }
+
+            .img11 {
+                position: absolute;
+                top: 2075px;
+                left: 570px;
+                z-index: 3;
+            }
+
+            .img12 {
+                position: absolute;
+                top: 2120px;
+                left: 330px;
+                z-index: 3;
+            }
+
+            .img13 {
+                position: absolute;
+                top: 2140px;
+                left: 350px;
+                z-index: 0;
+            }
+        }
+
+        #div32 {
+            width: 45%;
+
+            p:nth-child(1) {
+                @include css42px;
+            }
+
+            p:nth-child(2) {
+                @include cssharf22px;
+                padding: 30px 0px;
+            }
+
+            button {
+                @include cssbutton;
+            }
+        }
+    }
+}
+
+@mixin css22px2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(37, 61, 50, 1);
+}
+
+.d4 {
+    background-color: rgba(246, 251, 249, 1);
+    padding: 100px 0px;
+
+    .div40 {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p:nth-child(1) {
+            @include css42px;
+        }
+
+        p:nth-child(2) {
+            @include cssharf22px;
+            padding: 30px 0px;
+        }
+
+        .div41 {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            .piramid:nth-child(1) {
+                width: 100px;
+                height: 100px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+            }
+
+            .imgpdd {
+                padding: 20px;
+            }
+
+        }
+
+        .div42 {
+            width: 100%;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-around;
+
+            .div421 {
+                width: 16%;
+
+
+
+                p {
+                    @include css22px2;
+
+                }
+
+                .fw600 {
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        p:nth-child(5) {
+            @include cssharf24px;
+            color: rgba(163, 185, 56, 1);
+            padding-top: 50px;
+            text-decoration: underline;
+            text-decoration-style: solid;
+        }
+    }
+}
+
+@mixin css26px {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: rgba(37, 61, 50, 1);
+}
+
+@mixin css20px {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: rgba(152, 170, 40, 1);
+    padding: 20px 40px;
+    border: 1px solid rgba(163, 185, 56, 1);
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+@mixin csseyes {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(152, 170, 40, 1);
+    padding-top: 27px;
+    padding-bottom: 17px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid rgba(163, 185, 56, 1);
+    border-radius: 50%;
+    text-decoration: none;
+
+}
+
+@mixin css14px {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: rgba(128, 131, 113, 1);
+}
+
+.d5 {
+    width: 80%;
+    margin: 50px auto;
+
+    .div51 {
+        padding: 50px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        p:nth-child(1) {
+            @include css42px;
+        }
+
+        .div52 {
+            display: flex;
+            align-items: end;
+
+            a {
+                padding: 15px 0px;
+            }
+
+            a:nth-child(1) {
+                @include cssharf24px();
+                font-weight: normal;
+                text-decoration: none;
+                border-bottom: 3px solid rgba(152, 170, 40, 1);
+            }
+
+            a:nth-child(2) {
+                @include cssharf24px();
+                font-weight: normal;
+                text-decoration: none;
+                padding-left: 50px;
+                color: rgba(128, 131, 113, 1);
+            }
+        }
+    }
+
+    .div53 {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        gap: 40px;
+
+        p {
+            padding: 10px 0px;
+        }
+
+        .div55 {
+            width: 30%;
+            height: 90vh;
+
+            p:nth-child(2) {
+                @include css18px();
+                color: rgba(128, 131, 113, 1);
+                padding-bottom: 10px;
+            }
+
+            p:nth-child(3) {
+                @include css26px();
+                padding-bottom: 80px;
+            }
+
+            a:nth-child(4) {
+                @include css20px;
+            }
+
+        }
+
+        .div56 {
+            width: 30%;
+            height: 90vh;
+
+            p:nth-child(2) {
+                @include css14px();
+            }
+
+            p:nth-child(3) {
+                @include cssharf24px();
+            }
+
+            p:nth-child(4) {
+                @include css18px();
+                padding-bottom: 40px
+            }
+
+            a {
+                @include csseyes;
+                width: 25px;
+                height: 21px;
+            }
+
+
+
+        }
+
+    }
+
+}
